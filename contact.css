@@ -1,0 +1,142 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(38, 15, 61); 
+}
+.header{
+    height: 80px;
+    width:100%;
+    background-color: rgb(38, 15, 61); 
+}
+.active{
+    background-color: white;
+    color:rgb(38, 15, 61);
+    text-decoration: none;
+    float:right;
+    padding:20px;
+    height:35px;
+}
+.img{
+    height: 80px;
+    width:18%;
+}
+.btn{
+   height:35px;
+    color:white;
+    text-decoration: none;
+    float:right;
+    padding:20px;
+}
+a:hover{
+    background-color: white;
+    color:rgb(38, 15, 61);
+}
+.body{
+    color:white;
+}
+.container{
+    background-color: white;
+    color:white;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 600px;
+        padding: 10px;      
+}
+.input{
+    border:none;
+    width:200px;
+    color: white;
+    margin-left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+    opacity:0.9;
+    height: 60px;
+    text-align:center ;
+}
+.submit{
+    height:40px;
+    width:200px;
+    border:0px;
+    color:white;
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+   background-color:  rgb(77, 30, 78,0.3);
+}
+.footer{
+    background-color:rgb(31, 13, 49);
+    color:white;
+    height:320px;
+    width:auto;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    margin:1px;
+}
+.footer > div{
+    color:white;
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    text-justify:auto;
+
+}
+.ft{
+    height:30%;
+    width:50%;
+    background-color: rgb(31, 13, 49)
+
+}
+.pagination{
+    margin-left: 45%;
+}
+.pgno{
+    height: 15%;
+    width:20%;
+    font-size: medium;
+    text-decoration: none;
+    color:white; 
+    padding:10px;
+}
+a:hover{
+    background-color: white;
+    color:rgb(31, 13, 49);
+
+}
+.act{
+    background-color: white;
+    color:rgb(31, 13, 49);
+    height: 15%;
+    width:30%;
+    padding:10px;
+    font-size: medium;
+    text-decoration: none;  
+}
+.d{
+    background-color: rgb(31, 13, 49);
+    
+}
+.a{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(31, 13, 49)
+   
+}
+.sel{
+    color:white;
+}
+.txt{
+    height:30%;
+    width:40%;
+    color:white;
+}
+.sub{
+    color:white;
+    background-color: rgb(48, 10, 83);
+    padding:20px;
+    border:none;
+    border-radius: 20px;
+    margin-left:30%;
+}
+.sub:hover{
+    background-color: whitesmoke;
+    color: rgb(48, 10, 83);
+}

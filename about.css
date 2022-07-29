@@ -1,0 +1,120 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(38, 15, 61); 
+}
+.header{
+    height: 80px;
+    width:100%;
+    background-color: rgb(38, 15, 61); 
+}
+.active{
+    background-color: white;
+    color:rgb(38, 15, 61);
+    text-decoration: none;
+    float:right;
+    padding:20px;
+    height:35px;
+}
+.img{
+    height: 80px;
+    width:18%;
+}
+.btn{
+   height:35px;
+    color:white;
+    text-decoration: none;
+    float:right;
+    padding:20px;
+}
+a:hover{
+    background-color: white;
+    color:rgb(38, 15, 61);
+}
+.txt{
+    font-size: 25px;
+    color:white;
+    text-align: center;
+}
+.div{
+    background-color: rgb(77, 30, 78,0.3);
+    display:flex;
+    flex-direction: row;
+}
+
+.div > div {
+    color:white;
+    margin: 10px;
+    padding: 20px;
+    font-size: medium;
+    text-justify:auto;
+ 
+  }
+.img1{
+    height:100%;
+    width:100%;
+}
+.para{
+    color:white;
+    font-size: medium;
+    width:50%;
+    text-justify:auto;
+}
+.footer{
+    background-color:rgb(31, 13, 49);
+    color:white;
+    height:320px;
+    width:auto;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+    margin:1px;
+}
+.footer > div{
+    color:white;
+    margin: 10px;
+    padding: 10px;
+    font-size: medium;
+    text-justify:auto;
+
+}
+.ft{
+    height:30%;
+    width:50%;
+    background-color: rgb(31, 13, 49)
+
+}
+.pagination{
+    margin-left: 45%;
+}
+.pgno{
+    height: 15%;
+    width:20%;
+    font-size: medium;
+    text-decoration: none;
+    color:white; 
+    padding:10px;
+}
+a:hover{
+    background-color: white;
+    color:rgb(31, 13, 49);
+
+}
+.act{
+    background-color: white;
+    color:rgb(31, 13, 49);
+    height: 15%;
+    width:30%;
+    padding:10px;
+    font-size: medium;
+    text-decoration: none;  
+}
+.d{
+    background-color: rgb(31, 13, 49);
+    
+}
+.a{
+    color:white;
+    text-decoration: none;
+    background-color: rgb(31, 13, 49)
+   
+}
